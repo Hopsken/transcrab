@@ -88,6 +88,8 @@ On `URL + crab`:
 ```
 
 `add-url.mjs` prints a JSON summary including `slug`, `promptPath`, and `translationProfile`.
+- `promptPath` now points to canonical `translate.prompt.txt`
+- `translate.<lang>.prompt.txt` is kept as a deprecated compatibility copy
 
 Then:
 

@@ -110,7 +110,8 @@ const meta = {
 };
 await fs.writeFile(path.join(dir, 'meta.json'), JSON.stringify(meta, null, 2) + '\n', 'utf-8');
 
-const promptPath = path.join(dir, `translate.${lang}.prompt.txt`);
+const promptPath = path.join(dir, 'translate.prompt.txt');
+const promptCompatPath = path.join(dir, `translate.${lang}.prompt.txt`);
 const materialized = await materializePipelineArtifacts({
   outputDir: dir,
   markdown,
@@ -125,7 +126,9 @@ const materialized = await materializePipelineArtifacts({
 });
 
 const prompt = await fs.readFile(materialized.artifacts.assembledPrompt, 'utf8');
-await fs.writeFile(promptPath, prompt.trimEnd() + '\n', 'utf-8');
+const normalizedPrompt = prompt.trimEnd() + '\n';
+await fs.writeFile(promptPath, normalizedPrompt, 'utf-8');
+await fs.writeFile(promptCompatPath, normalizedPrompt, 'utf-8');
 
 await fs.writeFile(
   path.join(dir, 'translation.profile.json'),
@@ -138,6 +141,8 @@ await fs.writeFile(
       executionMode,
       executionSteps: materialized.executionSteps,
       artifacts: materialized.artifacts,
+      promptPath,
+      promptCompatPath,
       createdFiles: materialized.createdFiles,
       configPath: resolvedConfigPath,
       loadedFromFile,
@@ -163,6 +168,7 @@ console.log(
       dir,
       lang,
       promptPath,
+      promptCompatPath,
       date,
       yyyy,
       mm,
@@ -178,6 +184,7 @@ console.log(
       pipelineFiles: materialized.createdFiles,
       nextSteps: [
         `Translate: read ${promptPath} and translate to ${lang} (H1 title + blank line + body)`,
+        `Compat prompt (deprecated): ${promptCompatPath}`,
         `Apply: node scripts/apply-translation.mjs ${slug} --lang ${lang} --in /path/to/translated.${lang}.md`,
         'Commit: git add content/articles/<slug>/ && git commit && git push',
         'Verify: wait for deploy and ensure the final URL returns HTTP 200',

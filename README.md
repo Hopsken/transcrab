@@ -201,7 +201,8 @@ On `URL + crab`, write under `content/articles/<slug>/`:
 - `translation.profile.json`
 - `01-analysis.md`
 - `02-prompt.md`
-- `translate.<lang>.prompt.txt` (compatibility copy)
+- `translate.prompt.txt` (canonical)
+- `translate.<lang>.prompt.txt` (compatibility copy, deprecated)
 
 In refined publish flow (default):
 

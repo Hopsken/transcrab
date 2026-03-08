@@ -63,6 +63,8 @@ cd ~/Projects/transcrab-private
 ```
 
 2) Read `promptPath`, translate it **yourself** (do not ask the user), and save to a temp file.
+   - `promptPath` is canonical `translate.prompt.txt`.
+   - `translate.<lang>.prompt.txt` may exist as deprecated compatibility copy.
    - Format: first line is `# <translated title>`, blank line, then body.
    - Do **not** wrap in code fences.
 
