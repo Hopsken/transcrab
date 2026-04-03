@@ -1,0 +1,39 @@
+{
+  "selected": {
+    "source": "defuddle",
+    "score": 673,
+    "metrics": {
+      "chars": 4293,
+      "paragraphs": 8,
+      "headings": 0,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 673
+    },
+    "url": "https://www.lesswrong.com/posts/tWLFWAndSZSYN6rPB/think-like-reality"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 0
+  },
+  "candidates": [
+    {
+      "source": "defuddle",
+      "score": 673,
+      "metrics": {
+        "chars": 4293,
+        "paragraphs": 8,
+        "headings": 0,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 673
+      },
+      "url": "https://www.lesswrong.com/posts/tWLFWAndSZSYN6rPB/think-like-reality"
+    }
+  ]
+}
