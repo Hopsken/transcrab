@@ -1,0 +1,147 @@
+{
+  "slug": "creative-thinking-by-claude-shannon",
+  "title": "Creative Thinking by Claude Shannon",
+  "date": "2026-04-03T14:29:06.583Z",
+  "sourceUrl": "https://fs.blog/great-talks/creative-thinking-claude-shannon/",
+  "targetLang": "zh",
+  "extraction": {
+    "selected": {
+      "source": "readability",
+      "score": 269,
+      "metrics": {
+        "chars": 15403,
+        "paragraphs": 18,
+        "headings": 1,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 269
+      },
+      "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/"
+    },
+    "qualityGate": {
+      "minChars": 400,
+      "minParagraphs": 3,
+      "minHeadings": 1
+    },
+    "candidates": [
+      {
+        "source": "readability",
+        "score": 269,
+        "metrics": {
+          "chars": 15403,
+          "paragraphs": 18,
+          "headings": 1,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 269
+        },
+        "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/"
+      },
+      {
+        "source": "variant-readability",
+        "score": 269,
+        "metrics": {
+          "chars": 15403,
+          "paragraphs": 18,
+          "headings": 1,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 269
+        },
+        "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/?output=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 269,
+        "metrics": {
+          "chars": 15403,
+          "paragraphs": 18,
+          "headings": 1,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 269
+        },
+        "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/?amp=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 269,
+        "metrics": {
+          "chars": 15403,
+          "paragraphs": 18,
+          "headings": 1,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 269
+        },
+        "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/?print=1"
+      },
+      {
+        "source": "variant-readability",
+        "score": 269,
+        "metrics": {
+          "chars": 15403,
+          "paragraphs": 18,
+          "headings": 1,
+          "codeFences": 0,
+          "images": 0,
+          "htmlFigures": 0,
+          "inlineSvgs": 0,
+          "score": 269
+        },
+        "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/?view=amp"
+      }
+    ]
+  },
+  "inlineSvgPlaceholders": 0,
+  "translationProfile": {
+    "mode": "auto",
+    "audience": "general",
+    "style": "conversational",
+    "steps": [
+      "auto-analyze",
+      "translate"
+    ],
+    "executionMode": "refined",
+    "autoProfile": {
+      "requestedMode": "auto",
+      "topic": "life",
+      "confidence": 0.76,
+      "resolved": {
+        "mode": "refined",
+        "style": "conversational",
+        "audience": "general",
+        "chunkThreshold": 4000,
+        "chunkMaxWords": 5000,
+        "glossary": []
+      },
+      "metrics": {
+        "words": 2886,
+        "codeBlocks": 0,
+        "tableRows": 0,
+        "headings": 1,
+        "links": 1,
+        "businessHits": 0,
+        "lifeHits": 4,
+        "isLong": true,
+        "isVeryLong": false,
+        "isTechnical": false
+      },
+      "reasons": [
+        "公开发布默认使用 refined 流程，优先质量与稳定性",
+        "生活叙事关键词命中较高，判定为 life",
+        "篇幅较长，refined 可降低术语漂移与结构风险"
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 269,
+    "metrics": {
+      "chars": 15403,
+      "paragraphs": 18,
+      "headings": 1,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 269
+    },
+    "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 269,
+      "metrics": {
+        "chars": 15403,
+        "paragraphs": 18,
+        "headings": 1,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 269
+      },
+      "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 269,
+      "metrics": {
+        "chars": 15403,
+        "paragraphs": 18,
+        "headings": 1,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 269
+      },
+      "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 269,
+      "metrics": {
+        "chars": 15403,
+        "paragraphs": 18,
+        "headings": 1,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 269
+      },
+      "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 269,
+      "metrics": {
+        "chars": 15403,
+        "paragraphs": 18,
+        "headings": 1,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 269
+      },
+      "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 269,
+      "metrics": {
+        "chars": 15403,
+        "paragraphs": 18,
+        "headings": 1,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 269
+      },
+      "url": "https://fs.blog/great-talks/creative-thinking-claude-shannon/?view=amp"
+    }
+  ]
+}
