@@ -1,0 +1,114 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 522,
+    "metrics": {
+      "chars": 14712,
+      "paragraphs": 44,
+      "headings": 6,
+      "codeFences": 0,
+      "images": 0,
+      "htmlFigures": 1,
+      "inlineSvgs": 0,
+      "score": 522
+    },
+    "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 522,
+      "metrics": {
+        "chars": 14712,
+        "paragraphs": 44,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 522
+      },
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 522,
+      "metrics": {
+        "chars": 14712,
+        "paragraphs": 44,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 522
+      },
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 522,
+      "metrics": {
+        "chars": 14712,
+        "paragraphs": 44,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 522
+      },
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 522,
+      "metrics": {
+        "chars": 14712,
+        "paragraphs": 44,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 522
+      },
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 522,
+      "metrics": {
+        "chars": 14712,
+        "paragraphs": 44,
+        "headings": 6,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 1,
+        "inlineSvgs": 0,
+        "score": 522
+      },
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/?view=amp"
+    },
+    {
+      "source": "variant-readability",
+      "score": 94,
+      "metrics": {
+        "chars": 1300,
+        "paragraphs": 7,
+        "headings": 5,
+        "codeFences": 0,
+        "images": 0,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 94
+      },
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/amp"
+    }
+  ]
+}
