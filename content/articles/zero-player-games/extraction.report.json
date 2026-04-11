@@ -1,0 +1,99 @@
+{
+  "selected": {
+    "source": "readability",
+    "score": 474,
+    "metrics": {
+      "chars": 30014,
+      "paragraphs": 34,
+      "headings": 14,
+      "codeFences": 0,
+      "images": 3,
+      "htmlFigures": 0,
+      "inlineSvgs": 0,
+      "score": 474
+    },
+    "url": "https://jesperjuul.net/text/zeroplayergames/"
+  },
+  "qualityGate": {
+    "minChars": 400,
+    "minParagraphs": 3,
+    "minHeadings": 1
+  },
+  "candidates": [
+    {
+      "source": "readability",
+      "score": 474,
+      "metrics": {
+        "chars": 30014,
+        "paragraphs": 34,
+        "headings": 14,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 474
+      },
+      "url": "https://jesperjuul.net/text/zeroplayergames/"
+    },
+    {
+      "source": "variant-readability",
+      "score": 474,
+      "metrics": {
+        "chars": 30014,
+        "paragraphs": 34,
+        "headings": 14,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 474
+      },
+      "url": "https://jesperjuul.net/text/zeroplayergames/?output=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 474,
+      "metrics": {
+        "chars": 30014,
+        "paragraphs": 34,
+        "headings": 14,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 474
+      },
+      "url": "https://jesperjuul.net/text/zeroplayergames/?amp=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 474,
+      "metrics": {
+        "chars": 30014,
+        "paragraphs": 34,
+        "headings": 14,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 474
+      },
+      "url": "https://jesperjuul.net/text/zeroplayergames/?print=1"
+    },
+    {
+      "source": "variant-readability",
+      "score": 474,
+      "metrics": {
+        "chars": 30014,
+        "paragraphs": 34,
+        "headings": 14,
+        "codeFences": 0,
+        "images": 3,
+        "htmlFigures": 0,
+        "inlineSvgs": 0,
+        "score": 474
+      },
+      "url": "https://jesperjuul.net/text/zeroplayergames/?view=amp"
+    }
+  ]
+}
